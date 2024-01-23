@@ -1,0 +1,33 @@
+.order-container {
+    background-color: rgb(30, 30, 30);
+    color:white;
+    width: full;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.order-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4rem;
+    border-bottom: 2px;
+    border-color: white;
+}
+
+.custom-button {
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.custom-button-toggle {
+  background-color: blue;
+}
+
+.custom-button-kill {
+  background-color: red;
+}
